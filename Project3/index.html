@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Registration Form.</title>
+</head>
+
+<body>
+    <h1>Event Registration Form</h1>
+    <form action="#">
+        <label for="username">Full Name : </label>
+        <input type="text" name="username" id="username" placeholder="Enter Full Name" required />
+        <br />
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" placeholder="Enter Email" required />
+        <br />
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password" placeholder="Enter password" required />
+        <br />
+        <label for="age">Age : </label>
+        <input type="number" name="age" id="age" placeholder="Enter Age" />
+        <br />
+        <label for="gender">Gender : </label>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" />
+        <br />
+        <label for="skill">Your Skills : </label>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="skill" id="html" />
+        <label for="css">CSS</label>
+        <input type="checkbox" name="skill" id="css" />
+        <label for="js">JS</label>
+        <input type="checkbox" name="skill" id="js" />
+        <br />
+        <label for="level">Experience level : </label>
+        <select name="level" id="level">
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+            <option value="Expert">Expert</option>
+        </select>
+        <br />
+        <textarea name="feedback" id="feedback" placeholder="Tell us how you heard about us..."></textarea>
+        <label for="rating">Experience rating (0-10) :</label>
+        <input type="range" name="rating" id="rating" min="0" max="10" />
+        <br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
